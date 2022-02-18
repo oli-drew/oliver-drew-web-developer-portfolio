@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -36,8 +36,44 @@
       href="assets/images/favicon.png"
     />
   </head>
-  <body>
-    <!--  -->
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Oliver Drew</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3">
+        <h1>Oliver Drew</h1>
+        <p class="lead">Web Developer</p>
+        <p class="lead">
+          <a
+            href="#"
+            class="btn btn-lg btn-secondary fw-bold border-white bg-white"
+            >Learn more</a
+          >
+        </p>
+      </main>
+
+      <footer class="mt-auto text-white-50">
+        <p>Oliver Drew</p>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input bg-dark border-success"
+            type="checkbox"
+            role="switch"
+            id="modeSwitch"
+            checked
+          />
+        </div>
+      </footer>
+    </div>
 
     <!-- Masonry grid -->
     <script
@@ -46,5 +82,6 @@
       crossorigin="anonymous"
       async
     ></script>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
